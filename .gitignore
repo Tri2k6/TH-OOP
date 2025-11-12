@@ -1,0 +1,16 @@
+# 1. Bỏ qua TẤT CẢ mọi thứ
+*
+
+# 2. KHÔNG bỏ qua (giữ lại) tất cả các THƯ MỤC
+# Điều này là BẮT BUỘC để Git có thể quét (traverse) vào thư mục con
+!*/
+
+# 3. KHÔNG bỏ qua (giữ lại) các file .cpp và .h
+!*.cpp
+!*.h
+
+# 4. KHÔNG bỏ qua chính file .gitignore này
+!/.gitignore
+
+# (Tùy chọn) Giữ lại các file .gitkeep để theo dõi thư mục rỗng
+!*.gitkeep
